@@ -1,0 +1,23 @@
+
+body {overflow-y:visible}
+
+/*-------HEADER-------*/
+header {position:relative}
+
+/*-------MENU-------*/
+nav {width:974px;background-image:none;margin-left:0}
+nav ul {}
+nav li {margin:0 35px}
+nav span {display:none}
+nav div {display:none}
+
+/*-------CONTENT-------*/
+#content-bg {background-position:left top}
+#content {margin-top:0;padding-bottom:20px}
+
+/*-------FOOTER-------*/
+footer {position:relative}
+
+/*-------HOMEPAGE-------*/
+#schedule {background-image:url(images/ie6/bg-schedule.gif)}
+.widget {background-image:url(images/ie6/bg-widget.gif);background-repeat:no-repeat}

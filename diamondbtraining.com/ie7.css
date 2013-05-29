@@ -1,0 +1,9 @@
+
+body {overflow-y:visible}
+
+/*-------HEADER-------*/
+header h1 {width:320px}
+header div {position:relative;z-index:-1}
+
+/*-------MENU-------*/
+nav ul {width:630px}

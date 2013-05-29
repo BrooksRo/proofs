@@ -1,0 +1,16 @@
+
+body {overflow-y:visible}
+
+/*-------HEADER-------*/
+header {overflow:visible;margin-bottom:-24px}
+header h1 {width:320px}
+#logo {background-image:url(images/logo.gif)}
+
+/*-------MENU-------*/
+nav ul {width:630px}
+
+/*-------BANNER-------*/
+#banner3 {background-image:url(images/bg-banner-bottom.gif)}
+
+/*-------FOOTER-------*/
+footer {background-image:url(images/bg-footer.gif)}

@@ -1,0 +1,87 @@
+* {margin:0;padding:0;border:none;list-style:none}
+html {height:100%}
+header, footer, section, nav, article, aside, hgroup, details, summary {display:block}
+body {font-family:Arial, sans-serif;color:#4b392e;font-size:12px;background:#cbc8b9 url(images/bg-site.jpg) fixed;height:100%;overflow-y:scroll}
+a {outline:none;text-decoration:none;color:#f25a00}
+a:hover {color:#db3d28}
+
+/*-------WRAPPER-------*/ /*---keeps footer stuck to bottom of viewport---*/
+#wrapper {min-height:100%;position:relative}
+
+/*-------HEADER-------*/
+header {width:100%;height:47px;background:#0a0a09;border-bottom:3px solid #ee5c07;position:relative;z-index:100}
+header nav {width:900px;height:50px;margin:0 auto}
+header h1 {float:right;font-size:18px;color:#f5bf76;font-weight:bold;text-transform:uppercase;margin:0;clear:right}
+header div {width:100%;height:24px;background:#642917}
+#logo {display:block;float:left;width:119px;height:119px;background:url(images/logo.png);margin:5px 0 0}
+
+/*-------MENU-------*/
+nav ul {float:right;font-family:Verdana, Arial, sans-serif;color:#fff;font-size:12px;margin:27px -8px 5px 0}
+nav li {float:left}
+nav li a {display:block;color:#fff;padding:5px 10px;margin:-5px 0 0}
+nav li a:hover {color:#ee5c07}
+
+/*-------BANNER-------*/
+#banner {width:100%;height:355px;margin:24px 0 0;background:url(images/bg-banner.jpg) repeat-x center top;position:relative}
+#banner2 {width:900px;height:355px;margin:0 auto;background:url(images/banner.jpg) no-repeat center top}
+#banner3 {display:block;width:100%;height:27px;position:absolute;bottom:0;left:0;background:url(images/bg-banner-bottom.png) repeat-x center bottom}
+
+/*-------CONTENT-------*/
+#content {width:876px;padding:12px 12px 120px;margin:0 auto}
+h1 {font-family:Georgia, serif;font-size:24px;color:#f35901;font-weight:normal;margin:10px 0 10px}
+h2 {font-family:Georgia, serif;font-size:18px;margin:0 0 10px 30px;font-weight:normal}
+h3 {color:#a80d0d;font-size:18px;font-weight:normal}
+
+/*-------FOOTER-------*/
+footer {width:100%;height:38px;padding:50px 0 0;position:absolute;left:0;bottom:0;background:url(images/bg-footer.png) repeat-x center bottom;color:#6a6a62}
+footer div {width:900px;margin:0 auto}
+footer ul {float:right}
+footer li {float:left;margin:0 5px}
+footer a {color:#6a6a62}
+footer a:hover {color:#8f8f89}
+
+/*-------HORSE LISTINGS-------*/
+details {margin:10px 0}
+summary {margin:0 0 10px 0;color:#c05518;font-weight:bold}
+td img {width:300px;height:auto;border:2px solid #4b392e}
+td p {color:#c05518;font-weight:bold}
+td a {display:block;float:left;padding:6px;background:#4b392e;color:#fff;border-bottom:1px solid #333;margin:5px 5px}
+td a:hover {color:#f35901}
+td a:first-child {display:block;float:right;margin:0}
+
+/*-------MISC-------*/
+hr {display:block;height:1px;width:100%;margin:10px auto;background:#333}
+
+/*-------TEXT-------*/
+.text-bold {font-weight:bold}
+.text-italic {font-style:italic}
+
+/*-------IMAGES-------*/
+.image-border-1px {border:#cc9551 solid 1px}
+.image-border-2px {border:#cc9551 solid 2px}
+.image-border-3px {border:#cc9551 solid 3px}
+.image-border-3px {border:#cc9551 solid 10px}
+.image-border-3px {border:#cc9551 solid 15px}
+.image-border-3px {border:#cc9551 solid 20px}
+
+.image-width-200px {width:200px;height:auto}
+.image-width-250px {width:250px;height:auto}
+.image-width-300px {width:300px;height:auto}
+.image-width-350px {width:350px;height:auto}
+.image-width-400px {width:400px;height:auto}
+.image-width-450px {width:450px;height:auto}
+.image-width-500px {width:500px;height:auto}
+
+.image-height-200px {width:auto;height:200px}
+.image-height-250px {width:auto;height:250px}
+.image-height-300px {width:auto;height:300px}
+.image-height-350px {width:auto;height:350px}
+.image-height-400px {width:auto;height:400px}
+.image-height-450px {width:auto;height:450px}
+.image-height-500px {width:auto;height:500px}
+
+.image-margin-10px {margin:10px}
+.image-margin-15px {margin:15px}
+.image-margin-20px {margin:20px}
+.image-margin-25px {margin:25px}
+.image-margin-30px {margin:30px}

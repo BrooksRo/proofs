@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Parallax Demo</title>
+
+<link rel="stylesheet" href="css/normalize.css" />
+<link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" href="css/sideways.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/vendor/custom.modernizr.js"></script>
+<script type="text/javascript" src="http://flesler-plugins.googlecode.com/files/jquery.scrollTo-1.4.2-min.js"></script>
+<script src="js/sideways.js"></script>
+</head>
+<body>
+<div id="header">
+	<div id="cloud1" class="clouds">
+    	<div id="clouds-small"></div>
+    </div><!-- end clouds -->
+    <div id="cloud2" class="clouds">
+        <div id="clouds-big"></div>
+    </div><!-- end clouds -->
+   		<h1 id="logo">Scrolling Clouds</h1>
+    	<ul id="menu">
+        	<li><a href="#box1" class="link">Home</a></li>
+            <li><a href="#box2" class="link">Box 2</a></li>
+            <li><a href="#box3" class="link">Box 3</a></li>
+            <li><a href="#box4" class="link">Box 4</a></li>
+      </ul>
+	</div><!-- end header -->
+	<div id="wrapper">
+    	<ul id="mask">
+        	<li id="box1" class="box">
+            	<a name="box1"></a>
+                <div class="content"><div class="inner">Home Box</div></div>
+            </li><!-- end box1 -->
+            <li id="box2" class="box">
+            	<a name="box2"></a>
+                <div class="content"><div class="inner">Box 2</div></div>
+            </li><!-- end box2 -->
+            <li id="box3" class="box">
+            	<a name="box3"></a>
+                <div class="content"><div class="inner">Box 3</div></div>
+            </li><!-- end box3 -->
+            <li id="box4" class="box">
+            	<a name="box4"></a>
+                <div class="content"><div class="inner">Box 4</div></div>
+            </li><!-- end box4 -->
+        </ul><!-- end mask -->
+    </div><!-- end wrapper -->
+    
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+body{
+	background: rgb(255,249,202); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(254,254,252,1) 0%, rgba(255,249,202,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,254,252,1)), color-stop(100%,rgba(255,249,202,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(255,249,202,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(255,249,202,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(254,252,234,1) 0%,rgba(255,249,202,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(254,252,234,1) 0%,rgba(255,249,202,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffefc', endColorstr='#fff9ca',GradientType=0 ); /* IE6-9 */
+}
+h1, h2, h3, h4, h5, h6{
+	color:#171610;
+	font-family: 'Metamorphous', cursive;
+}
+.header{
+	background:#24210c;
+	border-top:2px solid #565831;
+}
+.nav ul{
+	background:#24210c;
+}
+.nav li a{
+	color:#fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform:uppercase;
+	font-size:20px;
+}
+.nav li a:hover{
+	color:#db7524;
+}
+.logo{
+	text-align:center;
+	padding-top:10px;
+}
+.facebook{
+	display:none;
+}
+.content{
+	background-color:#ffffff;
+	padding:30px;
+	box-shadow:0px 1px 4px #999;
+}
+.photo{
+	border:2px solid #fff9ca;
+	background:#666;
+}
+
+.head-btm{
+	background:url('../img/head-bg.png') repeat-x;
+	padding-top: 20px;
+}
+.content-wrap{
+	background: url('../img/bg.png') no-repeat center 40px;
+}
+footer{
+	background: #e6c186 url('../img/foot-bg.png') repeat-x top center;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform:uppercase;
+	font-size:20px;
+}
+footer ul{
+	margin-top:40px !important;
+	font-weight:600;
+	padding-left:60px !important;
+}
+footer a:hover{
+	color:#db7524;
+}
+.hero{
+	height:350px;
+	text-align:center;
+	padding-top:30px;
+	text-shadow:0px 1px 2px #fff;
+}
+.hero h4{
+	padding-top:20px;
+}
+.hero span{
+	border-bottom: 2px solid #000;
+}
+.credit{
+	text-align:center;
+}
+.horse{
+	padding:20px;
+	text-align:center;
+	background:#ccc;
+	margin-bottom:30px;
+	border-radius:5px;
+}
+
+.directory h3{
+	background:#24210c;
+	margin-top:30px;
+	padding:5px;
+	clear:both;
+	color:#fff;
+	border-radius:5px;
+}
+/* Used to alter styles for screens at least 768px wide. This is where the grid changes. */
+@media only screen and (min-width: 768px) {
+.content-wrap{
+	background: url('../img/bg.png') no-repeat 213px 40px;
+}
+.hero h4 {
+	padding-top: 70px;
+}
+.hero h6{
+	background: url('../img/h6-bg.png') no-repeat center;
+}
+.logo{
+	text-align:center;
+	padding-top:10px;
+}
+.facebook{
+	position: relative;
+	top: -80px;
+	left: 160px;
+	display:block;
+}
+.nav ul{
+	background:#24210c;
+	margin-top:60px;
+}
+.half{
+	width:50% !important;
+}
+}
+
+
+
+/* Home Page */
+
+.home-slider {
+	margin: 0 auto;
+
+}

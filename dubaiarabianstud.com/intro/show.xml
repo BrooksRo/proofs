@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+   <album title="" description="" lgpath="images/">
+      <img src="show1.jpg" />
+      <img src="show2.jpg" />
+      <img src="show3.jpg" />
+      <img src="show4.jpg" />
+      <img src="show5.jpg" />
+      <img src="show6.jpg" />
+   </album>
+</gallery>

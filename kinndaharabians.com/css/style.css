@@ -1,0 +1,64 @@
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;
+	background:#000;
+	font-family:Tahoma;
+	font-size:11px;
+	color:#fff;
+}
+
+.mian_bg_mid{
+	background: url(../images/index_mid.jpg) left top no-repeat;
+	width:939px;
+	height:193px;
+}
+
+.inner_top_bg{
+	background:url(../images/inner_top_bg.jpg) top repeat-x;
+}
+
+.inner_banner{
+	background:url(../images/inner_header.jpg) top no-repeat;
+	width:939px;
+	height:304px;
+}
+
+.inner_mid_bg{
+	background:url(../images/inner_mid_bg.jpg) top no-repeat;
+	width:939px;
+}
+
+.img_brd{
+	border:2px solid #572a0d;
+}
+
+.footer{
+	background:url(../images/footer_repet.jpg) repeat-x top;
+	padding-top:25px;
+	height:55px;
+	font-family: Tahoma;
+	font-size:11px;
+	color:#e4e4e4;
+	padding-top:45px;
+}
+
+.f_color{
+	color:#4c4c4a;
+}
+
+.footer_link{
+	font-family: Tahoma;
+	font-size:11px;
+	text-decoration:none;
+	color:#e4e4e4;
+}
+
+.footer_link:hover{
+	font-family: Tahoma;
+	font-size:11px;
+	text-decoration:none;
+	color:#d8974e;
+}
+	
+

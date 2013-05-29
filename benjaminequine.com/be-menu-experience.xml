@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<component name="Drop Down Tree Menu v3">
+	<data>
+		<main childStyle="style1">
+			<item childStyle="style2" title="EXPERIENCE" url="../experience/index.html" target="_self">
+				<item title="CONSULTANT" url="../experience/consultant.html" target="_self"/>
+				<item title="MARKETER" url="../experience/marketer.html" target="_self"/>
+				<item title="EVENT ORGANIZER" url="../experience/event-organizer.html" target="_self"/>
+				<item title="SPEAKER" url="../experience/speaker.html" target="_self"/>
+				<item title="AUTHOR" url="../experience/author.html" target="_self"/>
+				<item title="JUDGE" url="../experience/judge.html" target="_self"/>
+				<item title="EDUCATOR" url="../experience/educator.html" target="_self"/>
+				<item title="ADVOCATE" url="../experience/advocate.html" target="_self"/>				
+			</item>
+		</main>
+	</data>
+	
+	<styles>
+		<style1>
+			<itemSpacing>4</itemSpacing>
+			<barIconSpacing>2</barIconSpacing>
+			<popIconSpacing>16</popIconSpacing> 
+			<fixedSize>false</fixedSize>
+			<folderIconId></folderIconId>
+			<itemHeight>15</itemHeight>
+			<textFormat>
+				<font>DINMittelschrift</font>
+				<size>14</size>
+				<color>0x5B5B5B</color>
+			</textFormat>
+			<parts>
+				<left>DDTM_default_style1_left</left>
+				<right>DDTM_default_style1_right</right>
+				<hseparator>DDTM_default_style1_hseparator</hseparator>
+				<vseparator>DDTM_default_style1_vseparator</vseparator>
+				<top>DDTM_default_style1_top</top>
+				<bottom>DDTM_default_style1_bottom2</bottom>
+				<folderIconId>DDTM_default_style1_folderIcon</folderIconId>
+			</parts>			
+			<states>
+				<up>
+					<mcLinkageId>DDTM_default_style1_up</mcLinkageId>
+				</up>
+				<over>
+					<textFormat>
+						<color>0x981B1E</color>
+					</textFormat>
+					<mcLinkageId>DDTM_default_style1_over</mcLinkageId>
+				</over>
+				<down>
+					<mcLinkageId>DDTM_default_style1_down</mcLinkageId>
+				</down>
+				<selected>
+					<mcLinkageId>DDTM_default_style1_selected</mcLinkageId>
+				</selected>
+				<disabled>
+					<textFormat>
+						<color>0x5B5B5B</color>
+					</textFormat>
+					<mcLinkageId>DDTM_default_style1_disabled</mcLinkageId>
+				</disabled>
+			</states>
+		</style1>
+		<style2>
+			<itemSpacing>0</itemSpacing>
+			<barIconSpacing>9</barIconSpacing>
+			<popIconSpacing>4</popIconSpacing> 
+			<fixedSize>false</fixedSize>
+			<folderIconId>DDTM_default_style2_folderIcon</folderIconId>
+			<itemHeight>19</itemHeight>
+			<textFormat>
+				<font>DINMittelschrift</font>
+				<size>12</size>
+				<color>0xFFFFFF</color>
+			</textFormat>
+			<parts>
+				<left>DDTM_default_style2_left</left>
+				<right>DDTM_default_style2_right</right>
+				<hseparator>DDTM_default_style2_hseparator</hseparator>
+				<vseparator>DDTM_default_style2_vseparator</vseparator>
+				<top>DDTM_default_style2_top</top>
+				<bottom>DDTM_default_style2_bottom2</bottom>
+				<folderIconId>DDTM_default_style2_folderIcon</folderIconId>
+			</parts>			
+			<states>
+				<up>
+					<mcLinkageId>DDTM_default_style2_up2</mcLinkageId>
+				</up>
+				<over>
+					<textFormat>
+						<color>0x981B1E</color>
+					</textFormat>
+					<mcLinkageId>DDTM_default_style2_over2</mcLinkageId>
+				</over>
+				<down>
+					<mcLinkageId>DDTM_default_style2_down2</mcLinkageId>
+				</down>
+				<selected>
+					<mcLinkageId>DDTM_default_style2_selected</mcLinkageId>
+				</selected>
+				<disabled>
+					<textFormat>
+						<color>0x5B5B5B</color>
+					</textFormat>
+					<mcLinkageId>DDTM_default_style2_disabled</mcLinkageId>
+				</disabled>
+			</states>
+		</style2>
+		<style3>
+			<itemSpacing>8</itemSpacing>
+			<barIconSpacing>2</barIconSpacing>
+			<popIconSpacing>6</popIconSpacing> 
+			<fixedSize>false</fixedSize>
+			<folderIconId>DDTM_default_style2_folderIcon</folderIconId>
+			<itemHeight>19</itemHeight>
+			<textFormat>
+				<font>DINMittelschrift</font>
+				<size>12</size>
+				<color>0xFFFFFF</color>
+			</textFormat>
+			<parts>
+				<left>DDTM_default_style3_left</left>
+				<right>DDTM_default_style3_right</right>
+				<hseparator>DDTM_default_style3_hseparator</hseparator>
+				<vseparator>DDTM_default_style3_vseparator</vseparator>
+				<top>DDTM_default_style1_top</top>
+				<bottom>DDTM_default_style3_bottom2</bottom>
+				<folderIconId>DDTM_default_style3_folderIcon</folderIconId>
+			</parts>			
+			<states>
+				<up>
+					<mcLinkageId>DDTM_default_style3_up</mcLinkageId>
+				</up>
+				<over>
+					<textFormat>
+						<color>0x981B1E</color>
+					</textFormat>
+					<mcLinkageId>DDTM_default_style3_over</mcLinkageId>
+				</over>
+				<down>
+					<mcLinkageId>DDTM_default_style3_down</mcLinkageId>
+				</down>
+				<selected>
+					<mcLinkageId>DDTM_default_style3_selected</mcLinkageId>
+				</selected>
+				<disabled>
+					<textFormat>
+						<color>0x5B5B5B</color>
+					</textFormat>
+					<mcLinkageId>DDTM_default_style3_disabled</mcLinkageId>
+				</disabled>
+			</states>
+		</style3>	
+	</styles>
+</component>

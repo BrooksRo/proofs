@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<link rel="author" href="http://www.ArabHorse.com">
+<meta name="description" content="Arabian horse training and breeding facility in the gorgeous northern Willamette Valley of Newberg, Oregon.">
+<meta name="keywords" content="Arabian horses, horses for sale, breeding, training, stallions, Newberg, Oregon, Willamette Valley">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Diamond B Training Stables</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../styles.css">
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="ie7.css"><link rel="stylesheet" href="../ie7.css"><link rel="stylesheet" href="../../ie7.css"><![endif]-->
+<!--[if IE 6]><link rel="stylesheet" href="ie6.css"><link rel="stylesheet" href="../ie6.css"><link rel="stylesheet" href="../../ie6.css"><![endif]-->
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+</head><body><div id="wrapper">
+
+<header>
+<nav><a id="logo" href="../index.html"></a><ul>
+<li><a href="../index.html">Home</a></li><li>|</li>
+<li><a href="../about/index.html">About</a></li><li>|</li>
+<li><a href="../about/news.html">News</a></li><li>|</li>
+<li><a href="../horses/stallions.html">Stallions at Stud</a></li><li>|</li>
+<li><a href="../sales/index.html">Horses for sale</a></li><li>|</li>
+<li><a href="../about/forms.html">Fees &amp; Forms	</a></li><li>|</li>
+<li><a href="../about/contact.html">Contact Us</a></li>
+</ul>
+<h1>Diamond B Training Stables</h1></nav>
+<div></div></header>
+
+<section id="banner"><div id="banner2"></div><div id="banner3"></div></section>
+
+<section id="content"><!-- TemplateBeginEditable name="content" -->
+<h1>This is the content area</h1>
+<p>This is regular text.</p>
+<p><a href="#">This is regular link.</a></p>
+<!-- TemplateEndEditable --></section>
+
+<footer><div>
+<ul>
+<li><a href="../index.html">Home</a></li><li>|</li>
+<li><a href="../about/index.html">About</a></li><li>|</li>
+<li><a href="../about/news.html">News</a></li><li>|</li>
+<li><a href="../horses/stallions.html">Stallions at Stud</a></li><li>|</li>
+<li><a href="../sales/index.html">Horses for sale</a></li><li>|</li>
+<li><a href="../about/forms.html">Fees &amp; Forms	</a></li><li>|</li>
+<li><a href="../about/contact.html">Contact Us</a></li>
+</ul>
+<p>Copyright Diamond B Training</p>
+<p>designed by <a href="http://www.arabhorse.com" target="_blank">arabhorse</a></p>
+</div></footer>
+
+</div></body></html>
