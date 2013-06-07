@@ -35,7 +35,7 @@
 
       resizeable: true,
       autoScroll: true,
-      animationDuration: 2000,
+      animationDuration: 1000,
       animationDelay: 3000,
       thumbnailsScrollSpeed: 1000,
       elementsInvolvedHeightSelector: "",
@@ -75,14 +75,37 @@
     var AnimateToPosition = function (fromIndex, toIndex) {
       clearTimeout(carousel.animationTimeout);
       carousel.$itemsToAnimate.stop(true, true);
-      carousel.$itemsToAnimate.eq(fromIndex).removeClass(carousel.settings.classActiveItem).fadeOut(carousel.settings.animationDuration);
-      carousel.$itemsToAnimate.eq(toIndex).addClass(carousel.settings.classActiveItem).fadeIn(carousel.settings.animationDuration, function(){
-          if (carousel.settings.autoScroll) {
-            clearTimeout(carousel.animationTimeout);
-            carousel.animationTimeout = setTimeout(AutoAnimate, carousel.settings.animationDelay);
+      var $itemFrom = carousel.$itemsToAnimate.eq(fromIndex);
+      var $itemTo = carousel.$itemsToAnimate.eq(toIndex);
+
+      $itemTo.addClass(carousel.settings.classActiveItem);
+      $itemFrom.removeClass(carousel.settings.classActiveItem);
+
+      $itemFrom.fadeOut(carousel.settings.animationDuration, function(){
+        $itemTo.fadeIn(carousel.settings.animationDuration, function(){
+            if (carousel.settings.autoScroll) {
+              clearTimeout(carousel.animationTimeout);
+              carousel.animationTimeout = setTimeout(AutoAnimate, carousel.settings.animationDelay);
+            }
           }
-        }
-      );
+        );
+      });
+      if (carousel.settings.thumbnailsShow) {
+        SetActiveThumbnail(toIndex);
+        ScrollThumbnailsToCenterActive(toIndex);
+      }
+    };
+    var MoveToPosition = function (fromIndex, toIndex) {
+      clearTimeout(carousel.animationTimeout);
+      carousel.$itemsToAnimate.stop(true, true);
+      carousel.$itemsToAnimate.hide();
+      carousel.$itemsToAnimate.eq(fromIndex).removeClass(carousel.settings.classActiveItem);
+      carousel.$itemsToAnimate.eq(toIndex).addClass(carousel.settings.classActiveItem).show();
+
+      if (carousel.settings.autoScroll) {
+        clearTimeout(carousel.animationTimeout);
+        carousel.animationTimeout = setTimeout(AutoAnimate, carousel.settings.animationDelay);
+      }
       if (carousel.settings.thumbnailsShow) {
         SetActiveThumbnail(toIndex);
         ScrollThumbnailsToCenterActive(toIndex);
@@ -186,7 +209,7 @@
       } else {
         animateToIndex = (currentObjectIndex-1 < 0 ? animateObjectsCount-1 : currentObjectIndex-1);
       }
-      AnimateToPosition(currentObjectIndex, animateToIndex);
+      MoveToPosition(currentObjectIndex, animateToIndex);
       event.preventDefault();
     };
 
@@ -244,7 +267,7 @@
       var toIndex = $(this).parent().index();
       var currentIndex = $(this).parents('.'+carousel.settings.classThumbnails).find('.'+carousel.settings.classActiveItem).index();
       if (toIndex != currentIndex) {
-        AnimateToPosition(currentIndex, toIndex);
+        MoveToPosition(currentIndex, toIndex);
       }
       event.preventDefault();
     };
